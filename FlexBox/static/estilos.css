@@ -3,32 +3,19 @@ body{
 
 }
 
-
 .flexbox{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;    
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-grow: 1;
+    gap: 10px;
 }
 
-.box1 {
-    width: 300px;
+.box {
     padding: 5px;
-
-}
-.box2 {
-    width: 300px;
-    padding: 5px;
-
-}
-.box3 {
-    width: 300px;
-    padding: 5px;
-
-}
-.box4 {
-    width: 300px;
-    padding: 5px;
-
+    gap: 5px;
+    max-width: 100px;
+    height: auto;
 }
