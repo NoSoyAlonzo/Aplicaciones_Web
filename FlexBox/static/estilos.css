@@ -2,20 +2,42 @@ body{
     background: linear-gradient(to left ,  rgba(95, 95, 237, 0.958), rgb(51, 170, 170));
 
 }
+h1{
+    justify-content: center;
+    text-align: center;
+}
+.BarraNav{
 
-.flexbox{
+
+
+}
+.contenedor_flex {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;    
-    align-items: center;
-    flex-direction: row;
-    flex-grow: 1;
-    gap: 10px;
+    gap: 10px; 
+    justify-content:center; 
+    align-items: center; 
+    flex-wrap: wrap; 
 }
 
-.box {
-    padding: 5px;
-    gap: 5px;
-    max-width: 100px;
-    height: auto;
+.contenedor_flex img {
+    width: 100%;  
+    height: 200px; 
+    object-fit: cover; 
+    max-width:200px;
+    border-radius: 10px; 
+}
+@media (max-width: 600px) {
+    .contenedor_flex {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .contenedor_flex img {
+        max-width: 150px; 
+        height: 150px;
+    }
+}
+.descripcionP{
+    
+    text-align: center;
 }
