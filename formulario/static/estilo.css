@@ -1,5 +1,36 @@
 body{
 
-  background:linear-gradient(180deg,blue,black);
+  background:linear-gradient(to right,rgb(98, 51, 178),rgba(85, 188, 244, 0.833));
+  box-sizing: border-box;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+    width: 100;
+    
+}
+.encabezado{
+  text-align: center;
+  
+}
+.contenedor_formualrio{
 
+    align-items:center;
+    text-align: center;
+    
+}
+.cuadrosTexto{
+  border: 0px;
+  border-radius: 7px;
+  outline: none;
+  width: 100px;
+  
+}
+
+.Personajes{
+  text-align: center;
+  padding: 20px;
+  gap: 15px;
 }

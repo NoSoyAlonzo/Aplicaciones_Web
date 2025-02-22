@@ -3,15 +3,65 @@
   <head>
     <meta charset="utf-8">
     <title>Pagina Formulario</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href=" /static/estilo.css">
   </head>
   <body>
     <header>
-      <nav class=barraNavegacion>
-        
+      <nav class="barraNavegacion">
+        <ul>
+          <li>
+            <p>Inicio<p>
+            <p>Registro</p>
+          </li>
+        </ul>
       </nav>
 
     </header>
+    <div class="encabezado"><h1>Formulario de Registro para Torneo Tekken 8</h1></div>
+
+    <div class="contenedor_formualrio">
+      <form class= "formulario">
+
+        <ul>  
+          <li> 
+            <label> Nombre de Usuario</label>
+            <input type= "text" class="cuadrosTexto"/>
+          </li>
+          <li>
+            <label>Nombre de Jugador "Nickname"</label>
+            <input type="text"  class="cuadrosTexto" />
+          </li>
+
+          <li>
+            <label>Equipo o Patrocinador</label>
+            <input type="text" class="cuadrosTexto" />
+          </li>
+
+          <li>
+            <label>fecha de nacimiento</label>
+            <input type="date" class="cuadrosTexto"/>
+          </li>
+
+          <li>
+            <label>Seleccionar Personaje</label>
+            <select name="Personajes"/>
+              <option value="Kazuya">Kazuya</option>
+              <option value="Lars">Lars</option>
+              <option value="Dragunov">Dragunov</option>
+              <option value="Heihachi">Heihachi</option>
+          </li>
+
+          <li>
+            <input type="submit" class="botonEnviar"/>
+          </li>
+          
+        </ul>
+
+
+      </form>
+
+
+    </div>
 
 
 
