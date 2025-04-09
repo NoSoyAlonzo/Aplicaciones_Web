@@ -1,15 +1,15 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background: linear-gradient(to left,lightblue,white);
     color: #333;
 }
 
-/* Estilos del encabezado */
+
 header {
-    background-color: #6200ea;
+    background: linear-gradient(to bottom,lightblue, #6200ea);
     color: white;
     padding: 20px;
     text-align: center;
@@ -41,13 +41,15 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Estilos del contenido principal */
+
 main {
     padding: 20px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    align-items: center;
 }
 
 .panel {
@@ -55,7 +57,10 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 30%;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
     min-width: 250px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -74,7 +79,12 @@ main {
     line-height: 1.6;
 }
 
-/* Estilos del pie de página */
+.main section label{
+
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     background-color: #333;
     color: white;

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pagina Tareas Escolares</title>
+    <link rel="stylesheet" href="/PaginaTareas/static/estilo.css">
+    <script>src="/PaginaTareas/static/js/script.js"</script>
 </head>
 <body>
     <header>
@@ -21,23 +22,21 @@
 
     <main>
         <section class="panel">
-            <h2>Panel 1</h2>
-            <p>Este es un panel de información. Puedes agregar texto, imágenes o cualquier otro contenido aquí.</p>
-        </section>
+            <h2>Registrar Tareas</h2>
+            <label for="Tareas Registro">Nombre de la Tarea</label>
+            <input type="text" id="campoTarea" name="campoT"/>
+            <button id="botonAnadir" onClick="anadirTarea()">Agregar Tarea</button>
+            <button id="botonEliminar" onClick="eliminarTarea()">Eliminar Tarea</button>
+            <button id="botonMostrarT" onclick="mostrarTareas()">Mostrar Tareas</button>
+            <p>Lista de tareas Registradas.</p>
+            <ul id="listaTareas"></ul>
 
-        <section class="panel">
-            <h2>Panel 2</h2>
-            <p>Otro panel con más información. Personalízalo según tus necesidades.</p>
-        </section>
-
-        <section class="panel">
-            <h2>Panel 3</h2>
-            <p>Último panel para completar la sección principal.</p>
-        </section>
+        
+        
     </main>
 
     <footer>
-        <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+        <p>&copy; 2025 :v Mi Página Web. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
